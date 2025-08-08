@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fdf8f3;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background: linear-gradient(to right, #0055a5, #007bff);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+
+  section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h2 {
+    color: #0055a5;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .image-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .timeline {
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+  }
+
+  .timeline-item {
+    margin-bottom: 20px;
+  }
+
+  .timeline-item span {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #004080;
+    margin-bottom: 30px;
+  }
